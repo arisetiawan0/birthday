@@ -60,7 +60,7 @@ export const bab4 = {
   nomor: 'BAB 04',
   label: 'LDR',
   judul: 'Jogja — Kendari',
-  isi: 'Aku kuliah di Jogja, kamu di Kendari. Ribuan kilometer, beda pulau, beda zona rasa kangen. Tiket pesawat, video call sampai ketiduran, dan hitung mundur menuju ketemu. Jarak itu berat — tapi ternyata kita lebih kuat.',
+  isi: 'Aku kuliah di Jogja, kamu masih skripsi di Kendari. Ribuan kilometer, beda pulau, beda zona rasa kangen. Tiket pesawat, video call sampai ketiduran, dan hitung mundur menuju ketemu. Jarak itu berat — tapi ternyata kita lebih kuat.',
   jarak: '± 1.700 KM',
 }
 
@@ -68,8 +68,8 @@ export const bab5 = {
   nomor: 'BAB 05',
   label: 'BAB BARU',
   judul: 'Wisuda & Pindah',
-  isi: 'Lalu kamu lulus. Dan keputusan besar itu diambil: pindah, kerja di Kendari. Bukan keputusan gampang — ninggalin Jogja, teman, dan zona nyaman. Tapi kamu pilih untuk dekat. Dan itu salah satu hal paling berani yang pernah aku lihat.',
-  badges: ['Lulus Kuliah', 'Pindah Kota', 'Kerja di Kendari', 'Akhirnya Dekat'],
+  isi: 'Lalu aku lulus. Dan keputusan besar itu aku ambil: pindah ke Kendari, biar nggak LDR lagi. Bukan keputusan gampang — ninggalin Jogja, teman, dan zona nyaman. Tapi aku pilih untuk dekat sama kamu. Dan aku nggak nyesel sama sekali.',
+  badges: ['Aku Lulus', 'Pindah ke Kendari', 'Akhirnya Dekat', 'Nggak LDR Lagi'],
 }
 
 export const bab6 = {
@@ -87,7 +87,7 @@ export const bab7 = {
   tanggal: '28 JULI 2026',
   pesan: [
     'Hai, kamu. Iya, kamu yang lagi baca ini sambil (mungkin) senyum-senyum sendiri.',
-    'Dari perkenalan yang nggak sengaja, sempat hilang kontak, LDR Kendari–Jogja yang rasanya nggak ada habisnya, sampai kamu memutuskan pindah biar kita dekat — makasih udah jadi bagian terbaik dari setiap bab itu.',
+    'Dari perkenalan yang nggak sengaja, sempat hilang kontak, LDR Kendari–Jogja yang rasanya nggak ada habisnya, sampai aku yang memutuskan pindah ke Kendari biar kita dekat — makasih udah jadi alasan terbaik dari setiap keputusan itu.',
     'Hari ini hari kamu. Aku cuma mau bilang: selamat ulang tahun. Semoga semua doa baik yang kamu simpan diam-diam dikabulkan, dan semoga aku selalu ada di setiap bab cerita kamu selanjutnya.',
     'Dengan cinta (dan sedikit begadang bikin website ini),',
   ],
@@ -104,9 +104,9 @@ export const galeri = {
     { src: '/images/memory-1.png', caption: 'Awal segalanya' },
     { src: '/images/memory-2.png', caption: 'Ketemu lagi' },
     { src: '/images/memory-3.png', caption: '20.09.2024' },
-    { src: '/images/memory-4.png', caption: 'Jogja ✈ Kendari' },
-    { src: '/images/memory-5.png', caption: 'Wisuda!' },
-    { src: '/images/memory-6.png', caption: 'Rumah baru' },
+    { src: '/images/memory-4.png', caption: 'Aku ✈ ke Kendari' },
+    { src: '/images/memory-5.png', caption: 'Wisuda Ari!' },
+    { src: '/images/memory-6.png', caption: 'Kendari, rumah baru' },
     { src: '/images/memory-7.png', caption: 'Tetap bertahan' },
     { src: '/images/memory-8.png', caption: 'Hari ini' },
   ],
