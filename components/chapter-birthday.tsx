@@ -17,7 +17,7 @@ export function ChapterBirthday() {
 
   return (
     <section
-      className="relative overflow-hidden bg-ink px-6 py-24 text-background sm:py-32"
+      className="relative flex min-h-full items-center justify-center overflow-hidden bg-ink px-6 py-16 text-background"
       aria-labelledby="bab-7"
     >
       {/* Confetti */}
