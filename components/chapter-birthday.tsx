@@ -59,24 +59,38 @@ export function ChapterBirthday() {
       )}
 
       <ScrollReveal
-        className="relative mx-auto flex max-w-2xl flex-col items-center gap-4 text-center sm:gap-5"
+        className="relative mx-auto grid w-full max-w-6xl items-center gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16"
         onVisible={() => setCelebrate(true)}
       >
-        <span className="font-mono text-xs font-bold tracking-widest text-gold">
-          {bab7.nomor} · {bab7.label} · {bab7.tanggal}
-        </span>
+        <div className="flex flex-col items-center gap-5 text-center lg:items-start lg:text-left">
+          <span className="font-mono text-xs font-bold tracking-widest text-gold">
+            {bab7.nomor} · {bab7.label} · {bab7.tanggal}
+          </span>
 
-        <h2 id="bab-7" className="font-display text-balance text-4xl font-semibold sm:text-5xl">
-          {bab7.judul}
-        </h2>
+          <h2
+            id="bab-7"
+            className="max-w-lg font-display text-balance text-5xl font-semibold leading-tight sm:text-6xl"
+          >
+            {bab7.judul}
+          </h2>
 
-        <div className="flex max-w-lg flex-col gap-3 text-pretty text-sm leading-relaxed text-background/85 sm:text-base">
-          {bab7.pesan.map((paragraf, i) => (
-            <p key={i}>{paragraf}</p>
-          ))}
+          <div className="h-1 w-20 rounded-full bg-primary" aria-hidden="true" />
+          <p className="max-w-md text-pretty text-base leading-relaxed text-background/80 sm:text-lg">
+            {bab7.pesan[0]}
+          </p>
         </div>
 
-        <p className="font-hand text-3xl text-primary sm:text-4xl">{bab7.tandaTangan}</p>
+        <div className="flex flex-col gap-5 border-l-2 border-gold/50 pl-6 sm:pl-8">
+          <div className="flex flex-col gap-4 text-pretty text-base leading-relaxed text-background/85 sm:text-lg">
+            {bab7.pesan.slice(1).map((paragraf, i) => (
+              <p key={i}>{paragraf}</p>
+            ))}
+          </div>
+
+          <p className="self-end pr-6 font-hand text-4xl text-primary sm:text-5xl">
+            {bab7.tandaTangan}
+          </p>
+        </div>
       </ScrollReveal>
     </section>
   )
