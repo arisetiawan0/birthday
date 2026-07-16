@@ -17,7 +17,7 @@ export function ChapterBirthday() {
 
   return (
     <section
-      className="relative overflow-hidden bg-ink px-6 py-24 text-background sm:py-32"
+      className="relative flex min-h-full items-center overflow-hidden bg-ink px-6 py-10 text-background sm:py-12"
       aria-labelledby="bab-7"
     >
       {/* Confetti */}
@@ -59,24 +59,24 @@ export function ChapterBirthday() {
       )}
 
       <ScrollReveal
-        className="relative mx-auto flex max-w-2xl flex-col items-center gap-8 text-center"
+        className="relative mx-auto flex max-w-2xl flex-col items-center gap-4 text-center sm:gap-5"
         onVisible={() => setCelebrate(true)}
       >
         <span className="font-mono text-xs font-bold tracking-widest text-gold">
           {bab7.nomor} · {bab7.label} · {bab7.tanggal}
         </span>
 
-        <h2 id="bab-7" className="font-display text-balance text-4xl font-semibold sm:text-6xl">
+        <h2 id="bab-7" className="font-display text-balance text-4xl font-semibold sm:text-5xl">
           {bab7.judul}
         </h2>
 
-        <div className="flex max-w-lg flex-col gap-5 text-pretty leading-relaxed text-background/85">
+        <div className="flex max-w-lg flex-col gap-3 text-pretty text-sm leading-relaxed text-background/85 sm:text-base">
           {bab7.pesan.map((paragraf, i) => (
             <p key={i}>{paragraf}</p>
           ))}
         </div>
 
-        <p className="font-hand text-4xl text-primary sm:text-5xl">{bab7.tandaTangan}</p>
+        <p className="font-hand text-3xl text-primary sm:text-4xl">{bab7.tandaTangan}</p>
       </ScrollReveal>
     </section>
   )
