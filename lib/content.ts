@@ -99,7 +99,7 @@ export const bab7 = {
 // Taruh file fotonya di folder /public/images/
 export const galeri = {
   judul: 'Galeri Kenangan',
-  subjudul: 'Beberapa potongan cerita kita. (Ganti dengan foto asli ya!)',
+  subjudul: 'Beberapa potongan cerita kita.',
   foto: [
     { src: '/images/memory-1.jpeg', caption: 'Pertama kali ketemu di Kendari' },
     { src: '/images/memory-2.png', caption: 'Ketemu lagi' },
