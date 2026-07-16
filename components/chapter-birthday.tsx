@@ -59,24 +59,46 @@ export function ChapterBirthday() {
       )}
 
       <ScrollReveal
-        className="relative mx-auto flex max-w-2xl flex-col items-center gap-8 text-center"
+        className="relative mx-auto max-w-4xl"
         onVisible={() => setCelebrate(true)}
       >
-        <span className="font-mono text-xs font-bold tracking-widest text-gold">
-          {bab7.nomor} · {bab7.label} · {bab7.tanggal}
-        </span>
+        <div className="relative flex flex-col items-center gap-8 rounded-3xl border border-background/15 bg-background/5 px-6 py-12 text-center shadow-2xl shadow-ink sm:px-12 sm:py-16">
+          <div
+            className="absolute inset-3 rounded-2xl border border-dashed border-gold/25"
+            aria-hidden="true"
+          />
 
-        <h2 id="bab-7" className="font-display text-balance text-4xl font-semibold sm:text-6xl">
-          {bab7.judul}
-        </h2>
+          <div className="relative flex items-center gap-4">
+            <span className="h-px w-8 bg-gold/60 sm:w-16" aria-hidden="true" />
+            <span className="font-mono text-xs font-bold tracking-widest text-gold">
+              {bab7.nomor} · {bab7.label} · {bab7.tanggal}
+            </span>
+            <span className="h-px w-8 bg-gold/60 sm:w-16" aria-hidden="true" />
+          </div>
 
-        <div className="flex max-w-lg flex-col gap-5 text-pretty leading-relaxed text-background/85">
-          {bab7.pesan.map((paragraf, i) => (
-            <p key={i}>{paragraf}</p>
-          ))}
+          <h2
+            id="bab-7"
+            className="relative max-w-3xl font-display text-balance text-4xl font-semibold leading-tight sm:text-6xl"
+          >
+            {bab7.judul}
+          </h2>
+
+          <div className="relative flex max-w-2xl flex-col items-center gap-6 text-pretty leading-relaxed text-background/85">
+            <p className="max-w-xl text-lg font-semibold leading-relaxed text-background sm:text-xl">
+              {bab7.pesan[0]}
+            </p>
+            <span className="h-px w-20 bg-primary/70" aria-hidden="true" />
+            {bab7.pesan.slice(1).map((paragraf, i) => (
+              <p key={i} className="max-w-2xl">
+                {paragraf}
+              </p>
+            ))}
+          </div>
+
+          <p className="relative font-hand text-5xl text-primary sm:text-6xl">
+            {bab7.tandaTangan}
+          </p>
         </div>
-
-        <p className="font-hand text-4xl text-primary sm:text-5xl">{bab7.tandaTangan}</p>
       </ScrollReveal>
     </section>
   )
