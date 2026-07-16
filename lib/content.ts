@@ -101,7 +101,7 @@ export const galeri = {
   judul: 'Galeri Kenangan',
   subjudul: 'Beberapa potongan cerita kita. (Ganti dengan foto asli ya!)',
   foto: [
-    { src: '/images/memory-1.png', caption: 'Awal segalanya' },
+    { src: '/images/memory-1.jpeg', caption: 'Pertama kali ketemu di Kendari' },
     { src: '/images/memory-2.png', caption: 'Ketemu lagi' },
     { src: '/images/memory-3.png', caption: '20.09.2024' },
     { src: '/images/memory-4.png', caption: 'Aku ✈ ke Kendari' },
