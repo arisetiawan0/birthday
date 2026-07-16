@@ -29,9 +29,15 @@ export function JourneyStep({
   }
 
   return (
-    <div id={id} className="scroll-mt-4">
-      {children}
-      <div className="flex justify-center px-6 pb-10 sm:pb-14">
+    <section
+      id={id}
+      className="flex min-h-svh scroll-mt-4 flex-col"
+      aria-label={`Langkah perjalanan menuju ${nextLabel}`}
+    >
+      <div className="flex flex-1 items-center [&>section]:w-full">
+        {children}
+      </div>
+      <div className="flex shrink-0 justify-center px-6 pb-8 sm:pb-10">
         <Button
           type="button"
           size="lg"
@@ -44,6 +50,6 @@ export function JourneyStep({
           {!isFinal ? <ArrowDown data-icon="inline-end" /> : null}
         </Button>
       </div>
-    </div>
+    </section>
   )
 }
