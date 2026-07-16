@@ -50,7 +50,12 @@ export default function Page() {
         <JourneyStep id="step-bab-6" nextId="step-bab-7" nextLabel="Bab 7">
           <ChapterUpsAndDowns />
         </JourneyStep>
-        <JourneyStep id="step-bab-7" nextId="step-gallery" nextLabel="Galeri Kenangan">
+        <JourneyStep
+          id="step-bab-7"
+          nextId="step-gallery"
+          nextLabel="Galeri Kenangan"
+          immersive
+        >
           <ChapterBirthday />
         </JourneyStep>
         <JourneyStep id="step-gallery" nextId="step-playlist" nextLabel="Playlist">

@@ -10,6 +10,7 @@ interface JourneyStepProps {
   nextId: string
   nextLabel: string
   isFinal?: boolean
+  immersive?: boolean
 }
 
 export function JourneyStep({
@@ -18,6 +19,7 @@ export function JourneyStep({
   nextId,
   nextLabel,
   isFinal = false,
+  immersive = false,
 }: JourneyStepProps) {
   const goToNextStep = () => {
     document.getElementById(nextId)?.scrollIntoView({
@@ -31,13 +33,29 @@ export function JourneyStep({
   return (
     <section
       id={id}
-      className="flex min-h-svh scroll-mt-4 flex-col"
+      className={
+        immersive
+          ? 'relative flex h-svh flex-col overflow-hidden bg-ink'
+          : 'flex min-h-svh flex-col'
+      }
       aria-label={`Langkah perjalanan menuju ${nextLabel}`}
     >
-      <div className="flex flex-1 items-center [&>section]:w-full">
+      <div
+        className={
+          immersive
+            ? 'flex min-h-0 flex-1 items-stretch [&>section]:w-full'
+            : 'flex flex-1 items-center [&>section]:w-full'
+        }
+      >
         {children}
       </div>
-      <div className="flex shrink-0 justify-center px-6 pb-8 sm:pb-10">
+      <div
+        className={
+          immersive
+            ? 'absolute inset-x-0 bottom-0 flex justify-center px-6 pb-5'
+            : 'flex shrink-0 justify-center px-6 pb-8 sm:pb-10'
+        }
+      >
         <Button
           type="button"
           size="lg"

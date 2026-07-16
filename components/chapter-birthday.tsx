@@ -17,7 +17,7 @@ export function ChapterBirthday() {
 
   return (
     <section
-      className="relative flex min-h-full items-center justify-center overflow-hidden bg-ink px-6 py-16 text-background"
+      className="relative flex h-full items-center justify-center overflow-hidden bg-ink px-6 pb-20 pt-5 text-background sm:pb-24 sm:pt-6"
       aria-labelledby="bab-7"
     >
       {/* Confetti */}
@@ -59,10 +59,10 @@ export function ChapterBirthday() {
       )}
 
       <ScrollReveal
-        className="relative mx-auto max-w-4xl"
+        className="relative mx-auto w-full max-w-4xl"
         onVisible={() => setCelebrate(true)}
       >
-        <div className="relative flex flex-col items-center gap-8 rounded-3xl border border-background/15 bg-background/5 px-6 py-12 text-center shadow-2xl shadow-ink sm:px-12 sm:py-16">
+        <div className="relative flex flex-col items-center gap-4 rounded-3xl border border-background/15 bg-background/5 px-6 py-7 text-center shadow-2xl shadow-ink sm:gap-5 sm:px-12 sm:py-9">
           <div
             className="absolute inset-3 rounded-2xl border border-dashed border-gold/25"
             aria-hidden="true"
@@ -78,13 +78,13 @@ export function ChapterBirthday() {
 
           <h2
             id="bab-7"
-            className="relative max-w-3xl font-display text-balance text-4xl font-semibold leading-tight sm:text-6xl"
+            className="relative max-w-3xl font-display text-balance text-4xl font-semibold leading-tight sm:text-5xl"
           >
             {bab7.judul}
           </h2>
 
-          <div className="relative flex max-w-2xl flex-col items-center gap-6 text-pretty leading-relaxed text-background/85">
-            <p className="max-w-xl text-lg font-semibold leading-relaxed text-background sm:text-xl">
+          <div className="relative flex max-w-2xl flex-col items-center gap-3 text-pretty text-sm leading-relaxed text-background/85 sm:text-base">
+            <p className="max-w-xl text-base font-semibold leading-relaxed text-background sm:text-lg">
               {bab7.pesan[0]}
             </p>
             <span className="h-px w-20 bg-primary/70" aria-hidden="true" />
@@ -95,7 +95,7 @@ export function ChapterBirthday() {
             ))}
           </div>
 
-          <p className="relative font-hand text-5xl text-primary sm:text-6xl">
+          <p className="relative font-hand text-4xl text-primary sm:text-5xl">
             {bab7.tandaTangan}
           </p>
         </div>
