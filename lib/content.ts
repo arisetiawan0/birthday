@@ -60,7 +60,7 @@ export const bab4 = {
   nomor: 'BAB 04',
   label: 'LDR',
   judul: 'Jogja — Kendari',
-  isi: 'Kamu kuliah di Jogja, aku di Kendari. Ribuan kilometer, beda pulau, beda zona rasa kangen. Tiket pesawat, video call sampai ketiduran, dan hitung mundur menuju ketemu. Jarak itu berat — tapi ternyata kita lebih kuat.',
+  isi: 'Aku kuliah di Jogja, kamu di Kendari. Ribuan kilometer, beda pulau, beda zona rasa kangen. Tiket pesawat, video call sampai ketiduran, dan hitung mundur menuju ketemu. Jarak itu berat — tapi ternyata kita lebih kuat.',
   jarak: '± 1.700 KM',
 }
 
@@ -68,7 +68,7 @@ export const bab5 = {
   nomor: 'BAB 05',
   label: 'BAB BARU',
   judul: 'Wisuda & Pindah',
-  isi: 'Lalu kamu lulus. Dan keputusan besar itu diambil: pindah, kerja di Kendari. Bukan keputusan gampang — ninggalin kota, teman, dan zona nyaman. Tapi kamu pilih untuk dekat. Dan itu salah satu hal paling berani yang pernah aku lihat.',
+  isi: 'Lalu kamu lulus. Dan keputusan besar itu diambil: pindah, kerja di Kendari. Bukan keputusan gampang — ninggalin Jogja, teman, dan zona nyaman. Tapi kamu pilih untuk dekat. Dan itu salah satu hal paling berani yang pernah aku lihat.',
   badges: ['Lulus Kuliah', 'Pindah Kota', 'Kerja di Kendari', 'Akhirnya Dekat'],
 }
 
@@ -87,7 +87,7 @@ export const bab7 = {
   tanggal: '28 JULI 2026',
   pesan: [
     'Hai, kamu. Iya, kamu yang lagi baca ini sambil (mungkin) senyum-senyum sendiri.',
-    'Dari perkenalan yang nggak sengaja, sempat hilang kontak, LDR Jogja–Kendari yang rasanya nggak ada habisnya, sampai kamu memutuskan pindah biar kita dekat — makasih udah jadi bagian terbaik dari setiap bab itu.',
+    'Dari perkenalan yang nggak sengaja, sempat hilang kontak, LDR Kendari–Jogja yang rasanya nggak ada habisnya, sampai kamu memutuskan pindah biar kita dekat — makasih udah jadi bagian terbaik dari setiap bab itu.',
     'Hari ini hari kamu. Aku cuma mau bilang: selamat ulang tahun. Semoga semua doa baik yang kamu simpan diam-diam dikabulkan, dan semoga aku selalu ada di setiap bab cerita kamu selanjutnya.',
     'Dengan cinta (dan sedikit begadang bikin website ini),',
   ],
