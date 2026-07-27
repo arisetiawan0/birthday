@@ -131,19 +131,19 @@ export const playlist = {
   subjudul: 'Tiga lagu yang selalu kedengeran kayak cerita kita.',
   lagu: [
     {
-      judul: 'Perjalanan Ini',
-      artis: 'Sheila On 7',
-      alasan: 'Tentang jarak dan waktu yang kita lewati bareng-bareng.',
-    },
-    {
       judul: 'Cinta Luar Biasa',
-      artis: 'Andmesh',
-      alasan: 'Tentang bertahan, bahkan waktu rasanya mau menyerah.',
+      artis: 'Andmesh Kamaleng',
+      alasan: 'Tentang rasa syukur punya seseorang yang luar biasa di sisi kita.',
     },
     {
       judul: 'Bertaut',
       artis: 'Nadin Amizah',
       alasan: 'Tentang dua hidup yang perlahan jadi saling terikat.',
+    },
+    {
+      judul: 'Sampai Tua',
+      artis: 'Armada',
+      alasan: 'Tentang menemani dan bertahan bersama hingga akhir.',
     },
   ],
 }
