@@ -89,7 +89,7 @@ export const bab7 = {
     'Hai, kamu. Iya, kamu yang lagi baca ini sambil (mungkin) senyum-senyum sendiri.',
     'Dari perkenalan yang nggak sengaja, sempat hilang kontak, LDR Kendari–Jogja yang rasanya nggak ada habisnya, sampai aku yang memutuskan pindah ke Kendari biar kita dekat — makasih udah jadi alasan terbaik dari setiap keputusan itu.',
     'Hari ini hari kamu. Aku cuma mau bilang: selamat ulang tahun. Semoga semua doa baik yang kamu simpan diam-diam dikabulkan, dan semoga aku selalu ada di setiap bab cerita kamu selanjutnya.',
-    'Dengan cinta (dan sedikit begadang bikin website ini),',
+    'Dengan cinta,',
   ],
   tandaTangan: '— Ari',
 }
