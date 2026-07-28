@@ -141,9 +141,9 @@ export const playlist = {
       alasan: 'Tentang dua hidup yang perlahan jadi saling terikat.',
     },
     {
-      judul: 'Sampai Tua',
-      artis: 'Armada',
-      alasan: 'Tentang menemani dan bertahan bersama hingga akhir.',
+      judul: 'Untuk Perempuan Yang Sedang Dalam Pelukan',
+      artis: 'Fiersa Besari',
+      alasan: 'Untuk kamu yang hari ini ada di sini — selamat ulang tahun.',
     },
   ],
 }
