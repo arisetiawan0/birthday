@@ -122,8 +122,8 @@ export const galeri = {
 // Taruh file lagu kamu di /public/audio/lagu-latar.mp3
 // (file audio berhak cipta harus disediakan sendiri — lihat catatan PRD)
 export const audio = {
-  src: '/audio/lagu-latar.mp3',
-  judulLagu: 'Lagu Latar Kita',
+  src: '/audio/lagu-1.mp3',
+  judulLagu: 'Cinta Luar Biasa',
 }
 
 export const playlist = {
@@ -134,16 +134,19 @@ export const playlist = {
       judul: 'Cinta Luar Biasa',
       artis: 'Andmesh Kamaleng',
       alasan: 'Tentang rasa syukur punya seseorang yang luar biasa di sisi kita.',
+      src: '/audio/lagu-1.mp3',
     },
     {
       judul: 'Bertaut',
       artis: 'Nadin Amizah',
       alasan: 'Tentang dua hidup yang perlahan jadi saling terikat.',
+      src: '/audio/lagu-2.mp3',
     },
     {
-      judul: 'Untuk Perempuan Yang Sedang Dalam Pelukan',
-      artis: 'Fiersa Besari',
+      judul: 'Untuk Perempuan Yang Sedang Di Pelukan',
+      artis: 'Payung Teduh',
       alasan: 'Untuk kamu yang hari ini ada di sini — selamat ulang tahun.',
+      src: '/audio/lagu-3.mp3',
     },
   ],
 }
